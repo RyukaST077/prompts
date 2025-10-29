@@ -1,7 +1,7 @@
 ## 概要
 
 手順：
-1. `_memory/history.md` を参照。
+1. `_memory/history.md` を参照。(なければ新規作成)
 2. `_spec/` フォルダ配下のmdファイルを読み込み `_memory/history.md` を更新
 3. `_spec/` フォルダ配下のmdファイルを読み込み `_memory/history.md` を更新
 4. `_task/` フォルダ配下のmdファイルを読み込み `_memory/history.md` を更新
