@@ -12,7 +12,9 @@ REQUIREMENT_MD=$REQUIREMENT_MD
 2. DESIGN_MD、REQUIREMENT_MDの内容を読み込む
 3. DESIGN_MD、REQUIREMENT_MDをもとにテンプレートを埋める
 4. すべてのセクションが埋まったか確認
-5. 完成したテキストを `_task/task_<feature-name>.md` として保存
+5. 矛盾がないかを確認（例：PR-003で必要な前提条件が、PR-003よりも前のタスクで実装されていないなど）
+6. 矛盾があればタスクを見直し、再度タスクを作成
+7. 完成したテキストを `_task/task_<feature-name>.md` として保存
 
 ## テンプレート
 ```
