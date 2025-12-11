@@ -1,8 +1,8 @@
 ## 要件定義書
-`${REQUIREMENT:=docs/requirements.md}`
+`$REQUIREMENT`
 
 ## 詳細設計書
-`${DESIGN_MD:docs/detailed_design.md}`
+`$DESIGN_MD`
 
 ## コマンド
 `git --no-pager show $GIT_SHA -- DESIGN_MD`
