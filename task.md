@@ -1,7 +1,3 @@
-# ====== ユーザー入力（必要に応じて変更）======
-DESIGN_MD=$DESIGN_MD
-REQUIREMENT_MD=$REQUIREMENT_MD
-
 ## 目的
 - 詳細設計書をもとにPR単位のタスクに分割する
 - 意味のある最小単位のPR単位に分割する
@@ -9,8 +5,8 @@ REQUIREMENT_MD=$REQUIREMENT_MD
 
 ## 手順
 1. テンプレートを読み込み必要な要素を確認
-2. DESIGN_MD、REQUIREMENT_MDの内容を読み込む
-3. DESIGN_MD、REQUIREMENT_MDをもとにテンプレートを埋める
+2. `$DESIGN_MD` 、 `$REQUIREMENT_MD` の内容を読み込む
+3. `$DESIGN_MD` 、 `$REQUIREMENT_MD` をもとにテンプレートを埋める
 4. すべてのセクションが埋まったか確認
 5. 矛盾がないかを確認（例：PR-003で必要な前提条件が、PR-003よりも前のタスクで実装されていないなど）
 6. 矛盾があればタスクを見直し、再度タスクを作成
